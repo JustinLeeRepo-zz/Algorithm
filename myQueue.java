@@ -15,10 +15,12 @@ public class myQueue<T>{
 	}
 
 	public T deque(){
+		shift();
 		return oldStack.push();
 	}
 
 	public T peek(){
+		shift();
 		return oldStack.peek();
 	}
 	
