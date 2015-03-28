@@ -15,22 +15,19 @@ public class myQueue<T>{
 	}
 
 	public T deque(){
-		if(oldStack.isEmpty()){
-			while(newStack != null){
-				int swap = newStack.pop();
-				oldStack.push(swap);
-			}
-		}
 		return oldStack.push();
 	}
 
 	public T peek(){
+		return oldStack.peek();
+	}
+	
+	public void shift(){
 		if(oldStack.isEmpty()){
 			while(newStack != null){
 				int swap = newStack.pop();
 				oldStack.push(swap);
 			}
 		}
-		return oldStack.peek();
 	}
 }
