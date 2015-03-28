@@ -11,13 +11,26 @@ public class myQueue<T>{
 	}
 
 	public void enqueue(T value){
+		newStack.push(value);
 	}
 
 	public T deque(){
-
+		if(oldStack.isEmpty()){
+			while(newStack != null){
+				int swap = newStack.pop();
+				oldStack.push(swap);
+			}
+		}
+		return oldStack.push();
 	}
 
 	public T peek(){
-
+		if(oldStack.isEmpty()){
+			while(newStack != null){
+				int swap = newStack.pop();
+				oldStack.push(swap);
+			}
+		}
+		return oldStack.peek();
 	}
 }
