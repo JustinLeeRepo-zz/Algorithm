@@ -6,3 +6,7 @@ public void mergeSort(int[] array){
 public void mergeSort(int[] array, int[] helper, int low, int high){
 	
 }
+
+public void merge(int[] array, int[] helper, int low, int mid, int high){
+
+}
