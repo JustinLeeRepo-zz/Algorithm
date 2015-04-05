@@ -4,7 +4,9 @@ public void mergeSort(int[] array){
 }
 
 public void mergeSort(int[] array, int[] helper, int low, int high){
-	
+	if(low < high){
+		int middle = (low + high) / 2;
+	}
 }
 
 public void merge(int[] array, int[] helper, int low, int mid, int high){
