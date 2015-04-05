@@ -6,6 +6,9 @@ public void mergeSort(int[] array){
 public void mergeSort(int[] array, int[] helper, int low, int high){
 	if(low < high){
 		int middle = (low + high) / 2;
+		mergeSort();
+		mergeSort;
+		merge(); // merge the two divided and conquered subarrays
 	}
 }
 
