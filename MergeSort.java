@@ -20,4 +20,21 @@ public void merge(int[] array, int[] helper, int low, int mid, int high){
 	int helperLeft = low;
 	int helperRight = mid + 1;
 	int current = low;
+
+	while(helperLeft <= mid && helperRight <= high){
+		if(helper[helperLeft] <= helper[helperRight]){
+			array[current] = helper[helperLeft];
+			helperLeft++;
+		}
+		else{
+			array[current] = helper[helperRight];
+			helperRight++;
+		}
+		current++;
+	}
+
+	int remaining = mid - helperLeft;
+	for(int i = 0; i <= remaining; i++){
+		array[current + i] = helper[helperLeft + i];
+	}
 }
