@@ -8,5 +8,10 @@ def find_duplicate_files(path):
         #current directory files
         for(filename in filenames):
             filePath = path + '/' + filename
+
+            fr = open(filePath, 'r')
+            #hash each readline of open file
+            for line in fr:                
+
             
     return duplicates
