@@ -12,7 +12,7 @@ public static String ParseNoSpaceString(string[] dictionary, string noSpaceStrin
 			string subStr = noSpaceString.substring(left, right + 1);
 		}
 
-		if(hash.contains(subStr.toCharArray()[0])){
+		if(hash.containsKey(subStr.toCharArray()[0])){
 			left = right + 1;
 			right = noSpaceString.length() - 1;
 			result.append(subStr);
