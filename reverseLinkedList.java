@@ -9,5 +9,5 @@ public static LinkedListNode reverseLinkedList(LinkedListNode head){
 		previous = current;
 		current = next;
 	}
-	return head = previous;
+	return revious;
 }
