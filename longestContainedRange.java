@@ -12,8 +12,15 @@ public static int longestContaintedRange(int[] arr){
 				hash.remove(upper);
 				upper++;
 			}
+
+			lower = arr[i] - 1;
+			while(hash.contains(lower)){
+				hash.remove(lower);
+				lower--;
+			}
+
+			max = Math.Max(max, upper - lower - 1);
 		}
-
 	}
-
+	return max;
 }
