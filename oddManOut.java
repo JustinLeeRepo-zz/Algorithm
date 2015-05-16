@@ -5,6 +5,10 @@ public static int oddManOut(int[] arr){
 		if(s.conatains(arr[i])){
 			sum -= arr[i];
 		}
+		else{
+			s.add(arr[i]);
+			sum += arr[i];
+		}
 	}
 	return ;
 }
