@@ -10,5 +10,5 @@ public static int oddManOut(int[] arr){
 			sum += arr[i];
 		}
 	}
-	return ;
+	return sum;
 }
