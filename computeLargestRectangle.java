@@ -1,3 +1,4 @@
 public static int computeLargestRectangle(List<Integer> A){
-	return ;	
+	int result;
+	return result;	
 }
