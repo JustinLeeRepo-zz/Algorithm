@@ -4,6 +4,9 @@ public static class TreeDiameter{
 	}
 
 	public static Pair<double, double> computeDiamter(TreeNode e){
-		
+		double diamteter;
+		double height;
+
+		return;
 	}
 }
