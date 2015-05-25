@@ -8,7 +8,7 @@ public static class TreeDiameter{
 		double height = {.0, .0};
 		for(Pair<TreeNode, Integer> e : r.edges){
 			Pair<Double, Double> heightDiam = computeDiamter(e.getFirst());
-			if(heightDiam.getFirst + e.getSecond() > height[0]){
+			if(heightDiam.getFirst() + e.getSecond() > height[0]){
 				height[1] = height[0];
 				height[0] = heightDiam.getFirst() + e.getSecond();
 			}
