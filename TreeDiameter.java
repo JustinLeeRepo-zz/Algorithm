@@ -12,8 +12,8 @@ public static class TreeDiameter{
 				height[1] = height[0];
 				height[0] = heightDiam.getFirst() + e.getSecond();
 			}
-			else{
-
+			else if(heightDiam.getFirst() + e.getSecond()) > height[0]{
+			
 			}
 		}
 
