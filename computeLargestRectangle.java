@@ -3,7 +3,9 @@ public static int computeLargestRectangle(List<Integer> A){
 	int result = Integer.MIN_VALUE;
 
 	for(int i = 0; i < A.size(); i++){
-		s.push(i);
+		while(!s.isEmpty()){
+			s.push(i);
+		}
 	}
 	return result;	
 }
