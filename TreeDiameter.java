@@ -17,9 +17,6 @@ public static class TreeDiameter{
 			}
 			diameter = Math.max(diameter, heightDiam.getSecond());
 		}
-
-
-
-		return;
+		return new Pair<Double, Double>(height[0], Math.max(diameter, height[0] + height[1]));
 	}
 }
