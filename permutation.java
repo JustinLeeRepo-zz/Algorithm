@@ -4,6 +4,6 @@ public static List<List<Integer>> permutation(List<Integer> a){
 	return result;
 }
 
-public static void permutationHelper(){
+public static void permutationHelper(List<Integer> a, int idx, List<list<Integer>> result){
 
 }
