@@ -11,6 +11,6 @@ public static void permutationHelper(List<Integer> a, int idx, List<list<Integer
 	}
 
 	for(int i = idx; i < a.size(); i++){
-		
+		Collections.swap(a, i, idx);
 	}
 }
