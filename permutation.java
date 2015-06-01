@@ -9,4 +9,8 @@ public static void permutationHelper(List<Integer> a, int idx, List<list<Integer
 		result.add(a);
 		return;
 	}
+
+	for(int i = idx; i < a.size(); i++){
+		
+	}
 }
