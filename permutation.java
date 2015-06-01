@@ -5,5 +5,8 @@ public static List<List<Integer>> permutation(List<Integer> a){
 }
 
 public static void permutationHelper(List<Integer> a, int idx, List<list<Integer>> result){
-
+	if(idx == a.size() - 1){
+		result.add(a);
+		return;
+	}
 }
