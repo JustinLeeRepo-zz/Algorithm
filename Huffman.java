@@ -1,8 +1,7 @@
 public static class Symbol{
-	
-	public BTree(){
-		
-	}
+	public double freq;
+	public char s;
+	public String bitPattern;
 
 	public static class BTree extends Comparable<Btree>{
 		@override
