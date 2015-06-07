@@ -8,11 +8,11 @@ static class Symbol{
 		Symbol s;
 		BTree left, right;
 
-		public BTree(){
-			freq = ;
-			s = ;
-			left = ;
-			right = ;
+		public BTree(double d, Symbol sym, BTree l, BTree r){
+			freq = d;
+			s = sym;
+			left = l;
+			right = r;
 		}
 
 
