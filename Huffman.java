@@ -9,7 +9,10 @@ static class Symbol{
 		BTree left, right;
 
 		public BTree(){
-			
+			freq = ;
+			s = ;
+			left = ;
+			right = ;
 		}
 
 
