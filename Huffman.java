@@ -20,6 +20,10 @@ static class Symbol{
 		public int compareTo(BTree b){
 			return Double.compare(freq, b.freq);
 		}
+
+		public static void huffmanEncoding(List<Symbol> symbols){
+			
+		}
 	}
 
 }
