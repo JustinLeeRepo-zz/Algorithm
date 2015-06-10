@@ -22,6 +22,7 @@ static class Symbol{
 		}
 
 		public static void huffmanEncoding(List<Symbol> symbols){
+			PriorityQueue<Btree> minHeap = new PriorityQueue<>();
 			
 		}
 	}
