@@ -28,6 +28,10 @@ static class Symbol{
 				
 			}
 		}
+
+		public static void assign(){
+			
+		}
 	}
 
 }
