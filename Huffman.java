@@ -25,7 +25,9 @@ static class Symbol{
 			PriorityQueue<Btree> minHeap = new PriorityQueue<>();
 			
 			for(Symbol s : symbols){
-				
+				if(minHeap.contains(s)){
+					
+				}
 			}
 		}
 
