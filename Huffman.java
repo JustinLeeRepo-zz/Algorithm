@@ -28,6 +28,9 @@ static class Symbol{
 				if(minHeap.contains(s)){
 					
 				}
+				else{
+					minHeap.add(s);
+				}
 			}
 		}
 
