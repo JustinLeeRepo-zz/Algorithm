@@ -27,7 +27,7 @@ static class Symbol{
 			for(Symbol s : symbols){
 				minHeap.add(new BTree(s.freq, s, null, null))
 			}
-			while(minHeap){
+			while(!minHeap.isEmpty()){
 
 			}
 		}
