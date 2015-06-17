@@ -27,8 +27,10 @@ static class Symbol{
 			for(Symbol s : symbols){
 				minHeap.add(new BTree(s.freq, s, null, null))
 			}
-			while(!minHeap.isEmpty()){
-
+			while(minHeap.size() > 1){
+				BTree l = minHeap.remove();
+				BTree r = minHeap.remove();
+				minHeap.add(l.freq + r.freq, null, null);
 			}
 		}
 
