@@ -34,7 +34,7 @@ static class Symbol{
 			}
 		}
 
-		public static void assign(){
+		public static void assign(BTree root, String str){
 			
 		}
 	}
