@@ -35,7 +35,12 @@ static class Symbol{
 		}
 
 		public static void assign(BTree root, String str){
-			
+			if(root != null){
+				//leaf
+				if(root.s != null){
+					
+				}
+			}
 		}
 	}
 
