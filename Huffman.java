@@ -38,7 +38,9 @@ static class Symbol{
 			if(root != null){
 				//leaf
 				if(root.s != null){
-					
+					root.s.bitPattern = str;
+				}
+				else {
 				}
 			}
 		}
