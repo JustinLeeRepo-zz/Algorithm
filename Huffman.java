@@ -41,6 +41,8 @@ static class Symbol{
 					root.s.bitPattern = str;
 				}
 				else {
+					assign(root.left, str + "0");
+					assign(root.right, str + "1");
 				}
 			}
 		}
