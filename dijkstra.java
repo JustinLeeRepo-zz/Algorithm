@@ -6,6 +6,7 @@ public static class Vertex implements Comparable<Vertex>{
 	@override
 	public int compareTo(Vertex v){
 		int diff = edge.getFirst().compareTo(v.edge.getFirst());
+		return diff;
 	}
 }
 
