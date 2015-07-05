@@ -17,6 +17,6 @@ public static void dijkstra(Vertex s, Vertex d){
 	s.edge = new Pair<>(0,0);
 	sortedSet<Vertex> nodeSet = new TreeSet<>();
 	while(!nodeSet.isEmpty()){
-		
+		vertex u = nodeSet.first();
 	}
 }
