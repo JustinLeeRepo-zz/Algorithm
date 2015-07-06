@@ -18,5 +18,8 @@ public static void dijkstra(Vertex s, Vertex d){
 	sortedSet<Vertex> nodeSet = new TreeSet<>();
 	while(!nodeSet.isEmpty()){
 		vertex u = nodeSet.first();
+		if(u.equals(d)){
+			break;
+		}
 	}
 }
