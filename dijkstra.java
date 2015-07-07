@@ -21,5 +21,6 @@ public static void dijkstra(Vertex s, Vertex d){
 		if(u.equals(d)){
 			break;
 		}
+		nodeset.remove(nodeset.first());
 	}
 }
