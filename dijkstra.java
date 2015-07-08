@@ -22,5 +22,8 @@ public static void dijkstra(Vertex s, Vertex d){
 			break;
 		}
 		nodeset.remove(nodeset.first());
+		for(Pair<Vertex, Integer> v: u.edges){
+			
+		}
 	}
 }
