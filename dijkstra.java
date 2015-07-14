@@ -27,6 +27,7 @@ public static void dijkstra(Vertex s, Vertex d){
 			int vEdges = u.edge.getSecond() + 1;
 			if(v.getFirst().edge.getFirst() == vDistance){
 				nodeSet.remove(v.getFirst());
+				v.getFirst().previos = u;
 				nodeSet.add(v.getFirst());
 
 			}
