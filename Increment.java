@@ -4,5 +4,5 @@ public static int Increment(int[] A){
 		A[i] = 0;
 		A[i-1]++;
 	}
-	return 
+	return A; 
 }
