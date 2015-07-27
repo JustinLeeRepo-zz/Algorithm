@@ -4,5 +4,11 @@ public static int Increment(int[] A){
 		A[i] = 0;
 		A[i-1]++;
 	}
-	return A; 
+
+	if(A[0] == 10){
+		A[0] = 0;
+	}
+	else{
+		return A; 
+	}
 }
