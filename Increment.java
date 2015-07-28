@@ -7,6 +7,9 @@ public static int Increment(int[] A){
 
 	if(A[0] == 10){
 		A[0] = 0;
+		int result = new int[A.length++];
+
+		return result;
 	}
 	else{
 		return A; 
