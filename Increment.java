@@ -9,6 +9,8 @@ public static int Increment(int[] A){
 		A[0] = 0;
 		int result = new int[A.length++];
 		System.arrayCopy(A, 0, result, 1, A.length)
+		result[1] = 0;
+		result[0] = 1;
 		return result;
 	}
 	else{
