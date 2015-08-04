@@ -3,7 +3,7 @@ public static int FindBatteryCapacity(int[] L){
 	int capacity = 0;
 
 	for(int i : L){
-		
+		capacity = Math.Max(capacity, i);
 	}
 
 	return capacity;
