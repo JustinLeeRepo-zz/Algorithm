@@ -3,5 +3,6 @@ public static List<Integer> enumeratePrime(int n){
 	List<integer> result = new ArrayList<>();
 	result.add(2);
 
-	boolean[] isPrimes = new boolean[size]
+	boolean[] isPrimes = new boolean[size];
+	Arrays.fill(isPrime, true);
 }
