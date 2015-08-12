@@ -5,4 +5,8 @@ public static List<Integer> enumeratePrime(int n){
 
 	boolean[] isPrimes = new boolean[size];
 	Arrays.fill(isPrime, true);
+
+	for(int i = 0; i < size; i ++){
+
+	}
 }
