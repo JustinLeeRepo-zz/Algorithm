@@ -7,6 +7,6 @@ public static List<Integer> enumeratePrime(int n){
 	Arrays.fill(isPrime, true);
 
 	for(int i = 0; i < size; i ++){
-
+		
 	}
 }
