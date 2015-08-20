@@ -11,6 +11,9 @@ class ChainedIterator<E> implements Iterator<E>{
 	}
 
 	public boolean hasNext(){
-		
+		if(!prev.hasNext() && !secondItr.hasNext()){
+			return false;
+		}
+		return true;
 	}
 }
