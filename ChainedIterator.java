@@ -16,4 +16,16 @@ class ChainedIterator<E> implements Iterator<E>{
 		}
 		return true;
 	}
+
+	public E next(){
+		if(!prev.hasNext() && secondItr.hasNext()){
+			prev = secondItr;
+			secondItr.next();
+			return prev.next();
+		}
+		if(prev.hasNext() && firstItr.hasNext()){
+			firstItr.next();
+			return prev.next();
+		}
+	}
 }
