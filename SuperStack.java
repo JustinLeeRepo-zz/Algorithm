@@ -14,7 +14,18 @@ public class SuperStack{
 
 	}
 
+	public static String validate(String[] str){
+        switch(str[0]){
+            case "push":
+                if(str.length != 2){
+                    return "ERROR: PUSH CALL USAGE";
+                }
+                return push(Integer.valueOf(str[1]));
+            }
+        }
+    }
+
 	public static void main(String[] args){
-		
+
 	}
 }
