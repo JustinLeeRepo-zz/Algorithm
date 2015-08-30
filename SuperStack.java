@@ -7,7 +7,13 @@ public class SuperStack{
 	}
 
 	public static int pop(){
+		if(stack.size() > 0){
+			stack.remove(stack.size() - 1);
+		}
 
+		if(stack.size() > 0)
+			return String.valueOf(stack.get(stack.size() - 1));
+		return "EMPTY";
 	}
 
 	public static void inc(int numElem, int incVal){
