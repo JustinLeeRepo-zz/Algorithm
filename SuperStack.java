@@ -13,11 +13,14 @@ public class SuperStack{
 
 		if(stack.size() > 0)
 			return String.valueOf(stack.get(stack.size() - 1));
-		return "EMPTY";
+		return "EMPTY";t
 	}
 
 	public static void inc(int numElem, int incVal){
-
+		for(int i = 0; i < numElem; i++){
+            stack.set(i, stack.get(i) + incVal);
+        }
+        return String.valueOf(stack.get(stack.size() - 1));
 	}
 
 	public static String validate(String[] str){
