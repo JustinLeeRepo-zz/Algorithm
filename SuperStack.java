@@ -31,6 +31,16 @@ public class SuperStack{
                 }
                 return push(Integer.valueOf(str[1]));
             }
+            case "pop":
+                if(str.length != 1){
+                    return "ERROR: POP CALL USAGE";
+                }
+                return pop();
+            case "inc":
+                if(str.length != 3){
+                    return "ERROR: INC CALL USAGE";
+                }
+                return inc(Integer.valueOf(str[1]), Integer.valueOf(str[2]));
         }
     }
 
