@@ -4,8 +4,11 @@ public class LargestRectangle{
 		int runningSum = -1;
 
 		for(int i = 0; i < arr.length; i++){
+			boolean isRect = false;
+			runningSum = 0;
+
 			for(int compareTo = 0; compareTo < arr.length; compareTo++){
-				
+
 			}
 		}
 	}
