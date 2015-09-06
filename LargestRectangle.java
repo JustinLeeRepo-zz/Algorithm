@@ -10,6 +10,8 @@ public class LargestRectangle{
 			for(int compareTo = 0; compareTo < arr.length; compareTo++){
 
 			}
+
+			maxRectangle = Math.Max(maxRectangle, runningSum);
 		}
 	}
 }
