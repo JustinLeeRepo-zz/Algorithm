@@ -8,7 +8,9 @@ public class LargestRectangle{
 			runningSum = 0;
 
 			for(int compareTo = 0; compareTo < arr.length; compareTo++){
-
+				if(arr[i] > arr[compareTo] && isRect){
+					break;
+				}
 			}
 
 			maxRectangle = Math.Max(maxRectangle, runningSum);
